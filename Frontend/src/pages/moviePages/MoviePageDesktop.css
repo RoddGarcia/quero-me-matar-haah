@@ -1,0 +1,136 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 14vh;
+  width: 100%;
+}
+
+@media (min-width: 1110px) {
+  .single-movie-content {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 4vh; /* Manter um espaçamento vertical similar */
+  }
+
+  .movie-container {
+    display: flex;
+    flex-direction: row; /* Organiza linha */
+    justify-content: center; /* Centraliza horizontalmente */
+    gap: 18px;
+    margin: 0px 15px;
+    width: 100%;
+    color: #ffffff;
+  }
+
+  .moviePoster {
+    flex: 1; /* Dá ao pôster uma proporção flexível */
+    max-width: 300px; /* Limita a largura máxima do pôster */
+  }
+
+  .movieDesc {
+    flex: 2;
+    padding: 0 15px;
+    margin-bottom: 188px;
+    text-align: left;
+  }
+
+  .movieDesc h1 {
+    text-align: left; /* Alinha o título à esquerda */
+    color: #ffffff; /* Cor do título */
+    font-size: 3vh; /* Tamanho do título */
+    margin-top: 0; /* Remove o espaçamento superior padrão do h1 */
+    margin-bottom: 30px; /* Adiciona espaçamento inferior para separá-lo do parágrafo */
+  }
+
+  .text {
+    text-align: left; /* Alinha o texto à esquerda (ajustável conforme preferência) */
+    color: #ffffff; /* Cor do parágrafo */
+    font-size: 28px; /* Tamanho do parágrafo */
+  }
+
+  .movieRating {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(177, 177, 177, 0.295);
+    width: 370px;
+    padding: 60px 0px;
+    border-radius: 10px;
+    margin: 0 28px;
+    font-size: 32px;
+  }
+
+  .rating-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Espaçamento entre elementos dentro do container */
+  }
+
+  .rr1 {
+    display: flex;
+    justify-content: space-around;
+    gap: 2vh;
+    margin: 1vh;
+  }
+
+  .rr2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2vh;
+    gap: 1vh;
+  }
+
+  .rr3 {
+    display: flex;
+    margin: 2vh;
+    gap: 1vh;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    position: absolute; /* Remove o container dos botões do fluxo normal */
+    bottom: 591px; /* Alinha o container dos botões na parte inferior do elemento pai */
+    left: 31%; /* Alinha o container dos botões horizontalmente */
+    transform: translateX(
+      -50%
+    ); /* Centraliza o container dos botões horizontalmente */
+  }
+  .primary-btn,
+  .custom-btn {
+    border-radius: 50px;
+    background: rgba(217, 217, 217, 0.25);
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 30px;
+    height: 56px;
+    margin: 0 10px;
+  }
+
+  /* Estilos adicionais para os ícones e botões dentro dos componentes */
+  .Stars svg {
+    transition: color 0.4s ease-in-out;
+  }
+
+  .Stars svg:hover {
+    cursor: pointer;
+    color: white;
+  }
+
+  #icons {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+  }
+
+  #icons:hover {
+    cursor: pointer;
+  }
+}

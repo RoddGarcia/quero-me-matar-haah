@@ -1,0 +1,113 @@
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.categoria-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.categoria-container label {
+  margin-right: 10px;
+}
+
+.categoria-container select {
+  width: 150px;
+}
+
+.add-form {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.tabela-conteudo {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  background-color: #ffffff; /* Adiciona fundo branco */
+}
+
+.act-bottons {
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.add-btn:hover {
+  cursor: pointer;
+  background-color: #b8daff; /* Altera para um azul claro no hover */
+}
+
+.add-form input {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.create-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 4vh;
+  margin-bottom: 4vh;
+  background-color: rgba(78, 78, 78, 0.5);
+  border-radius: 10px;
+}
+
+.create-item img {
+  width: 16vh;
+  aspect-ratio: 0.7;
+}
+
+.inputNovoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  margin-bottom: 1vh;
+}
+
+.add-form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.tabela-conteudo th,
+.tabela-conteudo td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.tabela-conteudo th {
+  background-color: #f2f2f2;
+}
+
+.even-row {
+  background-color: #ffffff;
+}
+
+.img-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.odd-row {
+  background-color: #f2f2f2;
+}
+
+.tabela-conteudo tbody tr:hover {
+  background-color: #b8daff; /* Altera para um azul claro no hover */
+}

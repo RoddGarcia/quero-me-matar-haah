@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.voltar {
+  margin-left: 15px;
+  margin-top: 40px;
+  border-color: black;
+  color: black;
+}
+
+.submit {
+  margin-top: 30px;
+  color: black;
+  background-color: #00ff7f;
+  border-color: black;
+}
+
+Input {
+  margin-top: 3em;
+}
+
+.check-div {
+  margin-top: 15px;
+}
+
+.form-check-label {
+  margin-left: 4px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.btn {
+  margin: 3px;
+}
+
+.btn {
+  border: 2px solid #000;
+  font-size: clamp(8px, 5vw, 1rem);
+  font-weight: 600;
+  color: white;
+}
+
+.btn:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 0.9rem;
+}

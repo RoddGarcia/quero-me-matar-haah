@@ -1,0 +1,145 @@
+{
+  "homeData": [
+    {
+      "id": 1,
+      "name": "Black Panther",
+      "rating": 2.5,
+      "time": "2hr : 22mins",
+      "desc": "Rainha Ramonda, Shuri, M'Baku, Okoye e Dora Milaje lutam para proteger sua nação das potências mundiais intervenientes após a morte do rei T'Challa.",
+      "starring": "Michael B. Jordan, Letitia Wright",
+      "genres": "Heroes",
+      "tags": "Action, Drama, Sci-fi",
+      "cover": "../images/home1.png",
+      "date": "10-Nov-2022"
+    },
+    {
+      "id": 2,
+      "name": "Breaking Bad",
+      "rating": 5.0,
+      "time": "2hr : 22mins",
+      "desc": "O professor de química Walter White não acredita que sua vida possa piorar ainda mais. Quando descobre que tem câncer terminal, Walter decide arriscar tudo para ganhar dinheiro enquanto pode, transformando sua van em um laboratório de metanfetamina.",
+      "starring": "Bryan Cranston, Aaron Paul",
+      "genres": "Drama",
+      "tags": "Crime, Drama, Thriller",
+      "cover": "../images/home2.jpg",
+      "date": "20-Jan-2008"
+    }
+  ],
+  "movies": [
+    {
+      "id": "8c27eb79-6db3-4e8c-a30c-4e1b382e799d",
+      "cover": "../../images/movies/barbie_movie.jpg",
+      "name": "Barbie",
+      "description": "A história de uma boneca que vive aventuras emocionantes em diferentes cenários.",
+      "rating": 4.5,
+      "time": "2hr : 10mins",
+      "cast": ["Margot Robbie", "Ryan Gosling", "Idris Elba"],
+      "director": "Greta Gerwig"
+    },
+    {
+      "id": "2689a39f-b7cf-4c10-a6b5-45118a45e9d7",
+      "cover": "../../images/movies/jaws_movie.jpg",
+      "name": "Jaws",
+      "description": "Um thriller de suspense sobre um tubarão que ameaça uma cidade costeira.",
+      "rating": 4.8,
+      "time": "2hr : 4mins",
+      "cast": ["Roy Scheider", "Robert Shaw", "Richard Dreyfuss"],
+      "director": "Steven Spielberg"
+    },
+    {
+      "id": "27c33d10-bd91-43b4-8627-0ebd275ec6e0",
+      "cover": "../../images/movies/pearl_movie.jpg",
+      "name": "Pearl",
+      "description": "Uma história de amor épica ambientada em meio ao desastre do Titanic.",
+      "rating": 4.7,
+      "time": "2hr : 20mins",
+      "cast": ["Kate Winslet", "Leonardo DiCaprio", "Tom Hardy"],
+      "director": "James Cameron"
+    },
+    {
+      "id": "d30a52c8-89a9-4969-90d0-5a3486cb5f1b",
+      "cover": "../../images/movies/star-wars-the-force-awakens_movie.jpg",
+      "name": "Star Wars: The Force Awakens",
+      "description": "A saga continua com uma nova geração de heróis enfrentando a ameaça do Império.",
+      "rating": 4.9,
+      "time": "2hr : 18mins",
+      "cast": ["Daisy Ridley", "John Boyega", "Adam Driver"],
+      "director": "J.J. Abrams"
+    },
+    {
+      "id": "18a81922-96df-46f8-82d8-154e94d8d0a4",
+      "cover": "../../images/movies/hypnotic_movie.jpg",
+      "name": "Hypnotic",
+      "description": "Um thriller psicológico sobre um hipnotizador e seus pacientes.",
+      "rating": 4.6,
+      "time": "2hr : 5mins",
+      "cast": ["Kate Siegel", "Jason O'Mara", "Dulé Hill"],
+      "director": "Robert Rodriguez"
+    },
+    {
+      "id": "0a7ec6d3-dcb7-4ee8-9157-9034d60c6782",
+      "cover": "../../images/movies/oppenheimer_movie.jpg",
+      "name": "Oppenheimer",
+      "description": "A história de Robert Oppenheimer, o físico que liderou o projeto Manhattan.",
+      "rating": 4.8,
+      "time": "3hr : 15mins",
+      "cast": ["Cillian Murphy", "Emily Blunt", "Tom Hardy"],
+      "director": "Christopher Nolan"
+    }
+  ],
+  "popular": [
+    {
+      "id": 1,
+      "cover": "../../images/popular/pop1.png",
+      "name": "Blade Runner 2049",
+      "rating": 5.0,
+      "time": "3hr : 38mins"
+    },
+    {
+      "id": 2,
+      "cover": "../images/popular/pop2.png",
+      "name": "The Batman",
+      "rating": 5.0,
+      "time": "2hr : 38mins"
+    },
+    {
+      "id": 3,
+      "cover": "../images/popular/pop3.png",
+      "name": "The Lighthouse",
+      "rating": 5.0,
+      "time": "2hr : 40mins"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "aaaaaaaa-aaaa-4aaa-baaa-aaaaaaaaaaaa",
+      "username": "Carlos",
+      "senha": "vilma",
+      "avatar": ""
+    },
+    {
+      "id": "bbbbbbbb-bbbb-4bbb-bbbb-bbbbbbbbbbbb",
+      "username": "user",
+      "senha": "asd",
+      "avatar": "../images/user.png"
+    },
+    {
+      "id": "cccccccc-cccc-4ccc-cccc-cccccccccccc",
+      "username": "admin",
+      "senha": "brabo",
+      "avatar": "../images/ljZzGm4v_400x400.jpg"
+    },
+    {
+      "id": "dddddddd-dddd-4ddd-dddd-dddddddddddd",
+      "username": "apagar",
+      "senha": "brabo",
+      "avatar": "../images/ljZzGm4v_400x400.jpg"
+    },
+    {
+      "id": "eeeeeeee-eeee-4eee-eeee-eeeeeeeeeeee",
+      "username": "appagar",
+      "senha": "brabo",
+      "avatar": "../images/ljZzGm4v_400x400.jpg"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.App {
+  height: 90vh;
+}
+
+body {
+  font-family: Nunito;
+  background-color: #353434;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 6vh;
+  width: 100%;
+}
+
+nav.navbar {
+  /* width: 100vh; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.header.navbar {
+  margin-top: 8vh;
+}
+
+.popular {
+  height: 56vh;
+}
+
+input {
+  border-radius: 18px;
+  border: none;
+  width: 240px;
+  height: 32px;
+  padding: 0px 20px;
+  border-color: rgb(0, 0, 0);
+}
+
+button {
+  cursor: pointer;
+  background-color: #3d70bb;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 0px 40px;
+  /* margin-bottom: 20px; */
+  border-radius: 16px;
+  height: 32px;
+}
+
+/* button:hover {
+  cursor: pointer;
+} */
+
+.login:hover {
+  /* color: #3d70bb; */
+  background-color: hwb(51 12% 51%);
+}
+
+.row {
+  width: 50%;
+}
+
+.desc {
+  line-height: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.header h1 {
+  font-weight: 700;
+  margin: 30px 0;
+  color: #fff;
+}
+
+.header a {
+  color: #fff;
+}
+
+.MovieBox img {
+  top: 0;
+  left: 0;
+  z-index: -2;
+  /* height: 100%; */
+  width: 80%;
+  object-fit: cover;
+  aspect-ratio: 1/2;
+}
+
+.MovieBox .img {
+  display: flex;
+  justify-content: center;
+}
+
+.menuOptions {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.MovieBox {
+  width: 485px;
+  aspect-ratio: 0.7;
+  /* position: relative;
+  border-left: 5px solid transparent; */
+}
+
+.MovieBox:hover {
+  cursor: pointer;
+}
+
+/* .MovieBox::after {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.295), 100%, rgb(0, 0, 0));
+  top: 0;
+  left: 0;
+  content: "";
+  width: 480px;
+  height: 760px;
+  z-index: 1;
+} */
+
+.MovieBox .text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  gap: 24px;
+}
+.error img {
+  width: 20%;
+}

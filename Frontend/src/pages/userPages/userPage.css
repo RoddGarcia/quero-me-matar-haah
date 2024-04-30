@@ -1,0 +1,154 @@
+.user-info-container h1 {
+  color: #ffefef;
+}
+
+.mudar_variavel_pf {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+
+.socorro {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-data h2 {
+  color: #9c4a8b;
+}
+
+.user-info-container {
+  margin-top: 13vh;
+}
+
+.user-data p {
+  color: #ffffff;
+}
+
+.user-data h2.above-followers {
+  color: #e9a6a6;
+}
+
+.user-data h2.above-favorites {
+  color: #e9a6a6;
+}
+
+.user-info-container {
+  text-align: center;
+}
+
+.user-avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.user-data-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.user-data {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.user-data h2 {
+  margin: 0;
+}
+
+.user-data p {
+  margin: 0;
+}
+
+.edit-profile-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.edit-profile-button button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.edit-profile-button button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para os cards */
+.card {
+  width: 243px;
+  height: 385px;
+  background-color: #add8e6;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+
+.card .comment {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80%;
+  z-index: 1;
+}
+
+.card:hover .comment {
+  display: block;
+}
+
+.card h3,
+.card p {
+  margin: 10px 0;
+  color: #ffffff;
+}
+
+/* Estilos para as seções */
+.section {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section h2 {
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+/* Estilos para as informações dos filmes, séries e livros */
+.movies-info,
+.series-info,
+.books-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie-info,
+.serie-info,
+.book-info {
+  width: 243px;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff; /* Alterando a cor do texto para branco */
+}

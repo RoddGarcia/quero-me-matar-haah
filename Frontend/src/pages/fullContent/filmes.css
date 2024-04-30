@@ -1,0 +1,21 @@
+.MovieBox {
+  width: 270px;
+}
+.movie-grid,
+.books-grid,
+.series-grid {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 2vh;
+}
+
+.viewall-page-title {
+  color: #f5d520;
+  font-size: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 2vh;
+}
